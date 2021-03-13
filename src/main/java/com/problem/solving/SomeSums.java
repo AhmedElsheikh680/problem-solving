@@ -10,11 +10,13 @@ public class SomeSums {
         int val2 = sc.nextInt();
         int sum=0;
         for(int i=0; i<=num; i++){
+            //One Digit
             if(i /10 == 0){
                 if(i >= val1 && i<= val2){
                     sum+=i;
                 }
             }else {
+                // Two Digit
                 int number = i;
                 int mySum=0;
                 while(number !=0){

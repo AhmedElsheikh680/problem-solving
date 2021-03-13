@@ -2,7 +2,7 @@ package com.problem.solving;
 
 import java.util.Scanner;
 
-public class NightAtTheMuseum {
+public class  NightAtTheMuseum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int start = 97; //a
