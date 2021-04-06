@@ -13,7 +13,7 @@ public class TwoIntervals {
         if(r1 < l2){
             System.out.println(-1);
             return;
-        }
+        }  
         if(r1 > l2){
             System.out.println(l2 + " "+ r1);
         }else{
