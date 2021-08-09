@@ -16,10 +16,10 @@ public class ReverseArray {
             String str = sc.nextLine();
             arr[i] = str.charAt(0);
         }
-        int j=0;
-        for(int i=size-1; i>=0; i--){
+//        int j=0;
+        for(int i=size-1, j=0; i>=0; i--, j++){
             reverse_arr[j] = arr[i];
-            j++;
+//            j++;
         }
         for (int i=0; i<size; i++){
             System.out.println(reverse_arr[i]);
