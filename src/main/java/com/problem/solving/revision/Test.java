@@ -10,12 +10,12 @@ public class Test {
         System.out.println("Enter Size: ");
         int size = sc.nextInt();
         int [] x = new int [size];
-        for(int i=0; i< x.length; i++){
+        for(int i=0; i< size; i++){
             System.out.println("Enter Number: "+ i);
             x[i] =sc.nextInt();
         }
         int sum=0;
-        for(int i=0; i<x.length; i++){
+        for(int i=0; i<size; i++){
             sum +=x[i];
         }
         System.out.println("Sum: " + sum);
