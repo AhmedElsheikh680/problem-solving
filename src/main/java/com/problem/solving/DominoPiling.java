@@ -7,7 +7,7 @@ public class DominoPiling {
         Scanner sc = new Scanner(System.in);
         long num1 = sc.nextLong();
         long num2 = sc.nextLong();
-        long result  = num1 * num2;
-        System.out.println(result /2);
+        long result = num1 * num2;
+        System.out.println(result / 2);
     }
 }

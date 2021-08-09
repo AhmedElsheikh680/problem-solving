@@ -6,11 +6,11 @@ public class Magnets {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numMg = sc.nextInt();
-        int oldMg=0;
-        int counter=0;
-        for (int i=0; i<numMg; i++){
+        int oldMg = 0;
+        int counter = 0;
+        for (int i = 0; i < numMg; i++) {
             int newMg = sc.nextInt();
-            if(newMg  != oldMg){
+            if (newMg != oldMg) {
                 counter++;
             }
             oldMg = newMg;

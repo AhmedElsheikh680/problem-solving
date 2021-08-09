@@ -6,17 +6,17 @@ public class SearchProblem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        boolean flag  = false;
-        for(int i=0; i<size;i++){
+        boolean flag = false;
+        for (int i = 0; i < size; i++) {
             int answer = sc.nextInt();
-            if(answer == 1){
-                flag =true;
+            if (answer == 1) {
+                flag = true;
                 break;
             }
         }
-        if(flag){
+        if (flag) {
             System.out.println("HARD");
-        }else{
+        } else {
             System.out.println("EASY");
         }
     }

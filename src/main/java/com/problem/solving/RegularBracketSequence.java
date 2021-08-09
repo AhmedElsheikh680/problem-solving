@@ -8,15 +8,15 @@ public class RegularBracketSequence {
         String value = sc.next();
         char[] chars = value.toCharArray();
         int size = chars.length;
-        int counter =0;
-        for(int i=0; i<chars.length; i++){
-            if(chars[i] == '('){
+        int counter = 0;
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == '(') {
                 counter++;
-            }else {
+            } else {
                 counter--;
-                if(counter < 0){
+                if (counter < 0) {
                     size--;
-                    counter=0;
+                    counter = 0;
                 }
             }
         }

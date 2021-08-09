@@ -6,18 +6,18 @@ public class Hulk {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        for(int i=1; i<=size;i++){
+        for (int i = 1; i <= size; i++) {
             if (i == size) {
-                if(i %2 == 0){
+                if (i % 2 == 0) {
                     System.out.print("I love it ");
-                }else{
+                } else {
                     System.out.print("I hate it ");
                 }
 
-            }else {
-                if(i %2 == 0){
+            } else {
+                if (i % 2 == 0) {
                     System.out.print("I love that ");
-                }else{
+                } else {
                     System.out.print("I hate that ");
                 }
             }

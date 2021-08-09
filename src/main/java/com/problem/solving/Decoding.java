@@ -8,12 +8,12 @@ public class Decoding {
         int num = sc.nextInt();
         String text = sc.next();
         String newText = "";
-        int i=0;
-        while(num !=0){
-            if(num %2 !=0){
-                newText = newText+ text.toCharArray()[i];
-            }else {
-                newText = text.toCharArray()[i]+ newText;
+        int i = 0;
+        while (num != 0) {
+            if (num % 2 != 0) {
+                newText = newText + text.toCharArray()[i];
+            } else {
+                newText = text.toCharArray()[i] + newText;
             }
             num--;
             i++;

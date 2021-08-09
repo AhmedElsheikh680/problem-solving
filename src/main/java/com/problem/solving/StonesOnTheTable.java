@@ -8,9 +8,9 @@ public class StonesOnTheTable {
         int num = sc.nextInt();
         String value = sc.next();
         char[] values = value.toCharArray();
-        int counter=0;
-        for(int i=0; i<num; i++){
-            if(i !=num-1 && values[i] == values[i+1]){
+        int counter = 0;
+        for (int i = 0; i < num; i++) {
+            if (i != num - 1 && values[i] == values[i + 1]) {
                 counter++;
             }
         }
